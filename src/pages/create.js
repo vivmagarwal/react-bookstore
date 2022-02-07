@@ -56,7 +56,7 @@ function Create(props) {
 
       fetchBook();
     }
-  }, [])
+  }, [props.match?.params?.id, props.match?.url])
 
   const titleInputEl = useRef();
 
