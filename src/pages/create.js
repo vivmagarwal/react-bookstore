@@ -20,7 +20,7 @@ function Create(props) {
   const [successMsg, setSuccessMsg] = useState('');
 
   const { user } = useContext(UserContext);
-  const [loading, setLoading] = useState(true);
+  const [, setLoading] = useState(true);
 
 
   useEffect(() => {
